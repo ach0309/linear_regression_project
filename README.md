@@ -6,10 +6,19 @@ The Forest Fires Data came from UC Irvine Machine Learning Repository. It has ap
 
 > [UC Irvine ML Repo] (https://archive.ics.uci.edu/dataset/162/forest+fires)
 
-## 2. Method
+will add feature info
 
+## 2. Method
+Goal: To predict how much area will burn after a fire starts 
+Linear Regression
+
+Linear Regression
 
 ## 3. Cleaning
+- fix skewness of area: use ln(x+1)
+- 
+- 
+
 
 
 ## 4. EDA
