@@ -1,0 +1,6 @@
+
+'area' was transformed in ln(x+1) function DURING THEIR MODELING (not the actual dataset)
+- means that the original dataset was probably very skewed. Logarithmic function helps
+with skewness, zeroes, variance, etc. making the data more 'normal' and spread more consistent.
+
+
