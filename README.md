@@ -1,4 +1,4 @@
-# linear_regression_project
+# Linear Regression on Forest Fires
 ![alt text](docs/mapamontesinho.jpg)
 
 This project builds a linear regression model whose goal is to predict how much area will burn in forest fires using different weather and geographical features from the Forest Fires dataset.
@@ -57,3 +57,14 @@ Since Model 1 performed the best (based on R^2) out of the three models we creat
 We later converted it the log-transformed area feature into hectares to see the difference.
 Although log-transforming the area barely changed the correlation between different features, its still helped us make the skewness better and stabilizing the variance.
 This transformation helped us make better sense of the data to analyze and reduce extreme values to better understand meaningful patterns in our data.
+
+## Conclusion
+
+The project ultimately shows the limited predictive powers for estimating burned area using linear regression. Even after exploring, cleaning and engineering the data, the model still struggled to find meaningful relationships.
+
+## Further Improvement and Exploration
+The model performed as expected with all the noise and skewness. Possible explorations in the future could be:
+- combining features
+- analyzing based on seasons
+- checking the terrains/vegetations using X,Y coordinates and see if these will help us create a better model for predicting the area of forest fires
+- using different ML algorithms
