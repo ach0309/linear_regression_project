@@ -31,7 +31,7 @@ Exploration was started by checking the data and creating boxplots to explore ou
 
 We then went on to exploring the relationships between our target against numerical and non-numerical features, learning that we need to do encoding on month as it shows some seasonal relationship that could be useful for fire ignition and predict overall burned area. 
 
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/sa11/tkh-projects/linear_regression_project/docs/correlation_heatmap.png?version%3D1773027059020)
+![alt text](correlation_heatmap.png)
 
 Our correlation heatmap reveals that the log_area shows weak or almost no linear correlation with any predictors, having that values are close to zero (around 0.01-0.07). This also shows some multicollinearity risks with the fire indices. These are explored and specifically plotted within model.ipynb.
 
@@ -51,7 +51,7 @@ This was done to experiment which model would produce the best model by comparin
 
 Since Model 1 performed the best (based on R^2) out of the three models we created, we did a deeper analysis by inspecting its coefficients and check for signs of overfitting. This model consists of 7 features and dummies for the month feature, with 509 rows of data. 
 
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/sa11/tkh-projects/linear_regression_project/docs/model_1_results.png?version%3D1773027882152)
+![alt text](docs/model_1_results.png)
 
 
 We later converted it the log-transformed area feature into hectares to see the difference.
