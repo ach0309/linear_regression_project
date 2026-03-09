@@ -31,7 +31,7 @@ Exploration was started by checking the data and creating boxplots to explore ou
 
 We then went on to exploring the relationships between our target against numerical and non-numerical features, learning that we need to do encoding on month as it shows some seasonal relationship that could be useful for fire ignition and predict overall burned area. 
 
-![alt text](correlation_heatmap.png)
+![alt text](docs/correlation_heatmap.png)
 
 Our correlation heatmap reveals that the log_area shows weak or almost no linear correlation with any predictors, having that values are close to zero (around 0.01-0.07). This also shows some multicollinearity risks with the fire indices. These are explored and specifically plotted within model.ipynb.
 
